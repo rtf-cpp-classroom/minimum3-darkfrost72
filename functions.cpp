@@ -1,13 +1,15 @@
+#include <iostream>
+#include <cstdio>
 #include "functions.h"
 
-
-float findMinValue(float n1, float n2, float n3)
+float findMinValue(float arr[])
 {
-	float min = 0.0f;
-	
-	//TODO: write your code here
-	
-	
-	
-	return min;
+    float min = arr[0];
+    for(int i = 0; i < 3; i++) {
+        if(arr[i] < min) {
+            min = arr[i];
+        }
+    }
+    std::cout << min;
+    return 0;
 }
