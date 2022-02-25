@@ -2,4 +2,4 @@
 
 
 
-float findMinValue(float n1, float n2, float n3);
+float findMinValue(float arr[]);
